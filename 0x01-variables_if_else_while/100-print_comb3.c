@@ -10,12 +10,25 @@
 
 int main(void)
 {
-	char letter;
+	int num, x;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-	for (letter = 'A'; letter <= 'Z'; letter++)
-		putchar(letter);
+	for (num = '0'; num < '9'; num++)
+	{
+		for (x = num + 1; x <= '9'; x++)
+		{
+			if (x != num)
+			{
+				putchar(num);
+				putchar(x);
+
+				if (num == '8' && x == '9')
+					continue;
+
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
 	putchar('\n');
 
 	return (0);

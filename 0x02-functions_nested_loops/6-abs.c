@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *_abs - Check alx-student
- * @r: An integre input
- * Description: This function returns absolute value of a number
- * Return: Absolut value of number r
+ * main - check the code
+ *
+ * Return: Always 0.
  */
 int _abs(int r)
 {

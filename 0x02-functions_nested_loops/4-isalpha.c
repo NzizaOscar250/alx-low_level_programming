@@ -3,7 +3,7 @@
 /**
  * _isalpha - Check alx-student
  * c: An input character
- * Description: function returns 1 if the character is a
+ * Description: _isalpha function returns 1 if the character is a
  * letter, lowercase or uppercase.
  * Return: 1 or 0 in otherwise.
  */

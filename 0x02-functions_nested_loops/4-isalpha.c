@@ -1,14 +1,13 @@
+#include <stdio.h>
+
 /**
- * _isalpha - Checks if a character is alphabetic.
+ * _isalpha - checks for alphabetic character
  *
- * This function checks whether a character is alphabetic, which
- * means it is either an uppercase or lowercase letter. If the character
- * is alphabetic, the function returns 1. If not, it returns 0.
+ * @c: the character to check
  *
- * @param c The character to check.
- *
- * @return Returns 1 if c is alphabetic, 0 otherwise.
+ * Return: 1 if c is a letter, 0 otherwise
  */
+
 int _isalpha(int c)
 {
 	char lower, upper;

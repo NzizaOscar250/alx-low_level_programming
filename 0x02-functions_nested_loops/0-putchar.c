@@ -1,9 +1,14 @@
-#include "main.h"
-/**
- * description : 
- *
- */
+#include <stdio.h>
 
+/**
+ * main - Entry point of the program
+ *
+ * This function calls the _putchar function several times to print the
+ * characters '_', 'p', 'u', 't', 'c', 'h', 'a', 'r', and a newline character
+ * to the standard output. It then returns 0 to indicate successful execution.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
     _putchar('_');

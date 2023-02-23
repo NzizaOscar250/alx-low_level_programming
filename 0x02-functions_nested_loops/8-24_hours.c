@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * jack_bauer - Prints every minute of a 24-hour period
  *
- * Return: Always 0.
+ * Return: void
  */
 void jack_bauer(void)
 {

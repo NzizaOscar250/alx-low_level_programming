@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * _isalpha - Check alx-student
- * c: An input character
- * Description: _isalpha function returns 1 if the character is a
+ * _isalpha - shows 1 if the input is a letter
+ * another cases, shows 0
+ *
+ * Description: function returns 1 if the character is a
  * letter, lowercase or uppercase.
+ *
  * Return: 1 or 0 in otherwise.
  */
 int _isalpha(int c)

@@ -1,20 +1,20 @@
-#include "main.h"
-
 /**
- * _isalpha - Shows 1 if the input is a
- * letter Another cases, shows 0
+ * _isalpha - Checks if a character is alphabetic.
  *
- * @c: The character in ASCII code
+ * This function checks whether a character is alphabetic, which
+ * means it is either an uppercase or lowercase letter. If the character
+ * is alphabetic, the function returns 1. If not, it returns 0.
  *
- * Return: 1 for letters. 0 for the rest.
+ * @param c The character to check.
+ *
+ * @return Returns 1 if c is alphabetic, 0 otherwise.
  */
-int _isalpha(int c)
-{
 int _isalpha(int c)
 {
 	char lower, upper;
 	int isletter = 0;
 
+	/* Check if c is an uppercase or lowercase letter */
 	for (lower = 'a'; lower <= 'z'; lower++)
 	{
 		for (upper = 'A'; upper <= 'Z'; upper++)
@@ -23,5 +23,7 @@ int _isalpha(int c)
 				isletter = 1;
 		}
 	}
+	
 	return (isletter);
 }
+

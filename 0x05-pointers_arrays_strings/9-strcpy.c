@@ -6,15 +6,12 @@
  * @src: A pointer to source string to copy from
  * Return: pointer to dest
  */
- 
 char *_strcpy(char *dest, char *src)
 {
-	char *og = dest;
+	char *lter = dest;
 
-	while (*src != '\0')
-		*dest = *src;
-		dest++;
-		src++;
+	while (*src)
+		*dest++ = *src++;
 	*dest = '\0';
-	return (og);
+	return (lter);
 }

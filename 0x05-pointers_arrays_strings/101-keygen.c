@@ -10,20 +10,20 @@
 
 int main(void)
 {
-    char password[7]; /* Password must be 6 characters long, plus null terminator */
-    const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"; /* Allowed characters in password */
-    const int len_charset = sizeof(charset) - 1; /* Length of charset */
+    char password[7]; 
+    const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"; 
+    const int len_charset = sizeof(charset) - 1;
 
-    srand(time(NULL)); /* Seed random number generator */
+    srand(time(NULL)); 
 
     for (int i = 0; i < 6; i++)
     {
-        password[i] = charset[rand() % len_charset]; /* Choose random character from charset */
+        password[i] = charset[rand() % len_charset];
     }
 
-    password[6] = '\0'; /* Add null terminator to end of password */
+    password[6] = '\0'; 
 
-    printf("%s\n", password); /* Print password */
+    printf("%s\n", password); 
 
     return (0);
 }
